@@ -28,6 +28,8 @@ By the end of the kickoff day:
 
 **Preview of app:**
 [What's for Dinner App/Website](https://amysiu1028.github.io/What-s-for-dinner-app-website/)
+
+**Contributor:**
 [Amy](https://github.com/amysiu1028)
 
 **Iteration 0: Build Out Comp**
