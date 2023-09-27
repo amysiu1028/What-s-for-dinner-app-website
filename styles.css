@@ -1,24 +1,13 @@
-/* font-family: 'Roboto', sans-serif;
-
-COLORS
-teal - #0fb9b1;
-frosted white - rgba(225, 225, 225, .9);
-grey - #95a5a6;
-red - #ee5253
-
-
-/*  */
-
-.flash-bar { /*creating a class selector for that specific section to set CSS styles onto it*/
+.flash-bar { 
     background-color:#0fb9b1;
     padding: 10px; 
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
     height: 40px;
-    display: flex; /* Use flexbox to control layout */
-    justify-content: space-between;/* Spread items horizontally */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .add-recipe-button {
@@ -43,7 +32,6 @@ body {
     margin-left: 100px;
     width: 50%;
     height: auto; 
-    /* the element will automatically adjust its height to allow its content to be displayed correctl */
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 20px;
@@ -53,24 +41,19 @@ body {
     flex-direction: column;
 }
 
-/* read top and down so that's why I put h3 after left-section */
 .left-section h3 {
     font-weight: bold;
     text-align: left;
     font-weight: bold;
     padding-top: 40px;
     padding-left: 40px;
-    /* align-items: center */
 }
 
 .left-section h3::after {
-    content: "*"; /* display an aserick */
-    /* property is used to insert content into pseudo-element created by ::after. In this case, we are inserting an asterisk (*) character. */
+    content: "*"; 
     color: red; 
     position: absolute;
 }
-
-/* read top to down so that's why I put  */
 
 form {
     margin-left: 2em;
@@ -81,7 +64,6 @@ form {
     margin-bottom: 15px;
 }
 
-
 .lets-cook {
     margin-top: 10px;
     margin-bottom: 50px;
@@ -89,7 +71,6 @@ form {
     padding-bottom: 6px;
     background-color: #0fb9b1;
     border-radius: 8px; 
-    /* 10% of 200px = 0.1 * 200px = 20px */
     border: none;
     width: 175px;
     height: 30px
@@ -109,7 +90,6 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* stack div blocks on top of each other */
 }
 
 .clear-button {
@@ -131,7 +111,7 @@ form {
 
 main {
     display: flex; 
-    justify-content: space-between;/* Spread items horizontally */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -149,7 +129,7 @@ main {
     align-items: center;
 }
 
-.hidden {/*element selected by class */
+.hidden {
     display: none!important;
 }
 
@@ -157,15 +137,3 @@ main {
     margin-top: 150px;
     text-align: center;
 }
-
-/* Optionally, you can add some styling to the button */
-/* .flash-bar button {
-    padding: 10px 20px; /* Adjust padding for better appearance */
-    /* background-color: #007bff; Example button background color */
-    /* color: white; Text color */
-    /* border: none; Remove border */
-    /* border-radius: 5px; Rounded corners */
-    /* cursor: pointer; Change cursor on hover */
-/* } */ 
-
-/* Add more styles as needed */
