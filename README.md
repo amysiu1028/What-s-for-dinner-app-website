@@ -114,9 +114,3 @@ In this project, you have the flexibility to choose from various optional featur
 - Choose and describe another feature you'd like to add to the application.
 - Outline the functionality and user interactions.
 - Include any necessary images or diagrams.
-
-## 💡 Project Extensions (Optional):
-- Explore additional features beyond the core project requirements.
-- Experiment with advanced UI/UX enhancements.
-- Refactor code for improved readability and maintainability.
-- Consider implementing local storage for saving user preferences or favorite dishes.
