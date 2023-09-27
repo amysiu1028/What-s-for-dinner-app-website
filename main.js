@@ -1,15 +1,13 @@
-// QUERY SELECTOR VARIABLES go here 👇
 var sideButton = document.querySelector('#side')
 var mainButton = document.querySelector('#main')
 var dessertButton = document.querySelector('#dessert')
 var mealButton = document.querySelector('#meal')
 var letsCookButton = document.querySelector('.lets-cook')
-
 var potImage = document.querySelector('.pot-image')
 var randomText = document.querySelector('.random-text')
 var clearButton = document.querySelector('.clear-button')
 
-// DATA MODEL 👇
+
 var sides = [
     'Miso Glazed Carrots',
     'Coleslaw',
@@ -61,11 +59,9 @@ var desserts = [
 var meals = [];
 array = []
 
-//EVENT LISTENERS HERE! 👇 TELLING COMPUTER TO LISTEN TO CLICK:
 letsCookButton.addEventListener('click',generateRandomDish, showPrompt)
 clearButton.addEventListener('click',clearPrompt)
 
-// FUNCTIONS AND EVENT HANDLERS GO HERE 👇 
 function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
 }
