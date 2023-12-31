@@ -26,7 +26,7 @@ By the end of the kickoff day:
 - Carefully review the project specification.
 - Complete the provided form (if applicable).
 
-**Preview of app:**
+**Link:**
 [What's for Dinner App/Website](https://amysiu1028.github.io/What-s-for-dinner-app-website/)
 
 **Contributor:**
